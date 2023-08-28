@@ -1,0 +1,21 @@
+#home{
+    background-image: url('/img/home.jpg') ;
+    background-size: cover;
+    height: 100vw;
+    width: 100vw;
+    background-repeat: no-repeat;
+
+}
+#about{
+    background: aqua;
+}
+
+#contact{
+    background-color: aquamarine;
+}
+#mywork{
+    background-color: bisque;
+}
+#skill{
+    background-color: cadetblue;
+}
