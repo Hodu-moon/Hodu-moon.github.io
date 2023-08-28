@@ -3,54 +3,76 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="css/mystyle.css">
     <script src="https://kit.fontawesome.com/d4441eea8e.js" crossorigin="anonymous"></script>
     <title >문영호의 포트폴리오</title>
+    <script src="main.js" defer></script>
 
 
 </head>
 
 <body>
-<nav>
+<nav id="navbar">
     <div class="navbar_logo">
         <i href="#">문영호</i>
     </div>
     <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skill">Skills</a></li>
-        <li><a href="#mywork">My work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="navbar_item"><a href="#home">Home</a></li>
+        <li class="navbar_item"><a href="#about">About</a></li>
+        <li class="navbar_item"><a href="#skill">Skills</a></li>
+        <li class="navbar_item"><a href="#mywork">My work</a></li>
+        <li class="navbar_item"><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 <!--Home-->
 <section id="home">
+    <div class="home_container">
+        <img
+                src="img/my.jpg"
+                alt="avatar"
+                class="home_my"
+            >
+        <h2>안녕하세요 ,<br>열심히 해서 취업하고 싶습니다</h2>
 
-    <p>this is Home</p>
+    </div>
+    <button id="home_button" >
+        <a href="#contact">연락</a>
+    </button>
 </section>
 
 <!--About-->
 <section id="about">
-    <p>this is About</p>
+    <p><i class="fa-regular fa-school"></i> 조선대학교 재학중 </p>
+    <p><a>
+    </a></p>
+
 </section>
 
-<!--Skill-->
-<section id="skill">
-    <p>this is Skill</p>
-</section>
+<!--&lt;!&ndash;Skill&ndash;&gt;-->
+<!--<section id="skill">-->
+<!--    <p>this is Skill</p>-->
+<!--</section>-->
 
 <!--myWork-->
 <section id="myWork">
-    <p>this is My work</p>
+    <div class="section__container">
+        <h1>My work</h1>
+    </div>
 </section>
 
 <!--Contact-->
 <section id="contact">
-    <p>this is Contact</p>
-    <div>
+    <div id="contact_container">
+        <p id="contact_c">this is Contact</p>
+        <p><i class="fa-solid fa-envelope"></i>dudgh614@gmail.com</p>
         <a href="https://github.com/Hodu-moon" target="_blank">
             <i class="fa-brands fa-github" style="color: #179fd9;"></i>
         </a>
+        &nbsp&nbsp&nbsp
+        <a href="https://velog.io/@bbangho" target="_blank">
+            <i class="fa-solid fa-blog"></i>
+        </a>
+        <p class="contact_rights">2023 youngho-moon - All rights reserved</p>
 
     </div>
 

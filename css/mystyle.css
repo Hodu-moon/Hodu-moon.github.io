@@ -1,21 +1,131 @@
+/*nav*/
+nav {
+    position:fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color:whitesmoke;
+    padding:20px;
+    transition: 300ms ease-in-out;
+    justify-content: space-between;
+    z-index: 1;
+
+
+}
+
+.navbar_logo{
+    font-size:40px;
+
+
+}
+nav ul{
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    float: right;
+}
+.navbar_item{
+    font-size: 35px;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 5px;
+}
+.navbar_item a{
+    cursor: pointer;
+
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li a:hover {
+    padding: 10px;
+    text-decoration: solid 1px ;
+    border: solid 1px ;
+}
+
+#navbar.navbar_dark {
+    padding: 20px;
+    background-color: rgba(28, 28, 28, 0.8);
+}
+
+
+/*home*/
+
 #home{
-    background-image: url('/img/home.jpg') ;
-    background-size: cover;
-    height: 100vw;
+    background: url('/img/background.jpeg') center/cover;
+    height: 60vw;
     width: 100vw;
-    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    transition: all ease-in-out;
+    margin: 0;
 
 }
+
+.home_my{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.fa-user{
+    opacity: 0;
+}
+
+.home_container{
+    padding-top: 15%;
+}
+
+#home_button{
+    background:transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin: 24px;
+
+}
+#home_button a{
+    text-decoration: none;
+
+    color: white;
+
+}
+
+#home_button:hover{
+    background-color: rgba(10, 10, 10, 0.7%);
+}
+
+
 #about{
-    background: aqua;
+    background: white;
+}
+/*contact*/
+#contact{
+    background-color: #ffab74;
+    color: white;
+}
+#contact_container{
+    text-align: center;
+}
+#contact_c{
+    font-size:40px;
 }
 
-#contact{
-    background-color: aquamarine;
-}
+/*mywork*/
 #mywork{
-    background-color: bisque;
 }
 #skill{
-    background-color: cadetblue;
 }
+body{
+    margin: 0;
+
+}
+section{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+
